@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-import org.apache.commons.lang3.RandomUtils;
 
 public class MyUtils {
 
@@ -48,12 +47,8 @@ public class MyUtils {
 	}
 	
 	public static String  generatingDoubleBounded(double max,double min)  {
-
-		/*   double min = 1.0;
-		   double max = 10.0;	*/
-		   double generatedDouble = RandomUtils.nextDouble(min, max);
-		   java.text.DecimalFormat   df   =new   java.text.DecimalFormat("#.000");  
-		   return df.format(generatedDouble);
-		}
+		
+		return "";
+	}
 
 }
